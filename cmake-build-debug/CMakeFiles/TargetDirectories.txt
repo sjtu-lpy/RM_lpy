@@ -1,0 +1,3 @@
+C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/homework1.elf.dir
+C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
