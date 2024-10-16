@@ -152,6 +152,30 @@ Core/Src/callback.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/callback.c.s
 .PHONY : Core/Src/callback.c.s
 
+Core/Src/can.obj: Core/Src/can.c.obj
+.PHONY : Core/Src/can.obj
+
+# target to build an object file
+Core/Src/can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj
+.PHONY : Core/Src/can.c.obj
+
+Core/Src/can.i: Core/Src/can.c.i
+.PHONY : Core/Src/can.i
+
+# target to preprocess a source file
+Core/Src/can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/can.c.i
+.PHONY : Core/Src/can.c.i
+
+Core/Src/can.s: Core/Src/can.c.s
+.PHONY : Core/Src/can.s
+
+# target to generate assembly for a file
+Core/Src/can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/can.c.s
+.PHONY : Core/Src/can.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -399,6 +423,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: Drivers/STM32F4xx_HAL_Driver/S
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj
@@ -772,6 +820,9 @@ help:
 	@echo ... Core/Src/callback.obj
 	@echo ... Core/Src/callback.i
 	@echo ... Core/Src/callback.s
+	@echo ... Core/Src/can.obj
+	@echo ... Core/Src/can.i
+	@echo ... Core/Src/can.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -803,6 +854,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s

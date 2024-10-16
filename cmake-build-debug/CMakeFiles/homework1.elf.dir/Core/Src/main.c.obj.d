@@ -29,6 +29,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj: \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
+ C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_can.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
@@ -37,21 +38,8 @@ CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj: \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/_ansi.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/newlib.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/config.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/machine/ieeefp.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/reent.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/_ansi.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/_types.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/machine/_types.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/lock.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/cdefs.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/_locale.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/string.h \
- C:\RMdiankong\homework1\Core\Inc/tim.h \
+ C:\RMdiankong\homework1\Core\Inc/can.h \
  C:\RMdiankong\homework1\Core\Inc/main.h \
+ C:\RMdiankong\homework1\Core\Inc/tim.h \
  C:\RMdiankong\homework1\Core\Inc/usart.h \
  C:\RMdiankong\homework1\Core\Inc/gpio.h

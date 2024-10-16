@@ -18,9 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
-#include <string.h>
-
+#include "can.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -94,10 +92,15 @@ int main(void)
   MX_TIM1_Init();
   MX_TIM6_Init();
   MX_USART6_UART_Init();
+  MX_CAN1_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim6);
   HAL_TIM_Base_Start_IT(&htim1);
   HAL_TIM_PWM_Start_IT(&htim1, TIM_CHANNEL_2);
+  CAN_FilterTypeDef can_filter={0,0,0,0,CAN_RX_FIFO0,14,CAN_FILTERMODE_IDMASK,CAN_FILTERSCALE_32BIT,ENABLE,0};
+  HAL_CAN_ConfigFilter(&hcan1,&can_filter);
+  HAL_CAN_Start(&hcan1);
+  HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -106,9 +109,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    HAL_UART_Transmit_IT(&huart6, (uint8_t *)l, strlen(l));
-    HAL_UART_Receive_IT(&huart6, (uint8_t *)l, strlen(l));
-    HAL_Delay(1000);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

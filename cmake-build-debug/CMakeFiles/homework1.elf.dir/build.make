@@ -82,10 +82,24 @@ CMakeFiles/homework1.elf.dir/Core/Src/callback.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/homework1.elf.dir/Core/Src/callback.c.s"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\RMdiankong\homework1\Core\Src\callback.c -o CMakeFiles\homework1.elf.dir\Core\Src\callback.c.s
 
+CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj: CMakeFiles/homework1.elf.dir/flags.make
+CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj: C:/RMdiankong/homework1/Core/Src/can.c
+CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj"
+	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\can.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\can.c.obj -c C:\RMdiankong\homework1\Core\Src\can.c
+
+CMakeFiles/homework1.elf.dir/Core/Src/can.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/homework1.elf.dir/Core/Src/can.c.i"
+	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\RMdiankong\homework1\Core\Src\can.c > CMakeFiles\homework1.elf.dir\Core\Src\can.c.i
+
+CMakeFiles/homework1.elf.dir/Core/Src/can.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/homework1.elf.dir/Core/Src/can.c.s"
+	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\RMdiankong\homework1\Core\Src\can.c -o CMakeFiles\homework1.elf.dir\Core\Src\can.c.s
+
 CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.obj: C:/RMdiankong/homework1/Core/Src/gpio.c
 CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\gpio.c.obj -c C:\RMdiankong\homework1\Core\Src\gpio.c
 
 CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj: C:/RMdiankong/homework1/Core/Src/main.c
 CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\main.c.obj -c C:\RMdiankong\homework1\Core\Src\main.c
 
 CMakeFiles/homework1.elf.dir/Core/Src/main.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C:/RMdiankong/homework1/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c C:\RMdiankong\homework1\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_it.c.obj: C:/RMdiankong/homework1/Core/Src/stm32f4xx_it.c
 CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\stm32f4xx_it.c.obj -c C:\RMdiankong\homework1\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/homework1.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Src/syscalls.c.obj: C:/RMdiankong/homework1/Core/Src/syscalls.c
 CMakeFiles/homework1.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/syscalls.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\syscalls.c.obj -c C:\RMdiankong\homework1\Core\Src\syscalls.c
 
 CMakeFiles/homework1.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/homework1.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Src/sysmem.c.obj: C:/RMdiankong/homework1/Core/Src/sysmem.c
 CMakeFiles/homework1.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/sysmem.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\sysmem.c.obj -c C:\RMdiankong\homework1\Core\Src\sysmem.c
 
 CMakeFiles/homework1.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/homework1.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Src/system_stm32f4xx.c.obj: C:/RMdiankong/homework1/Core/Src/system_stm32f4xx.c
 CMakeFiles/homework1.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\system_stm32f4xx.c.obj -c C:\RMdiankong\homework1\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/homework1.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/homework1.elf.dir/Core/Src/tim.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Src/tim.c.obj: C:/RMdiankong/homework1/Core/Src/tim.c
 CMakeFiles/homework1.elf.dir/Core/Src/tim.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/tim.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\tim.c.obj -c C:\RMdiankong\homework1\Core\Src\tim.c
 
 CMakeFiles/homework1.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/tim.c.s: cmake_force
 CMakeFiles/homework1.elf.dir/Core/Src/usart.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Src/usart.c.obj: C:/RMdiankong/homework1/Core/Src/usart.c
 CMakeFiles/homework1.elf.dir/Core/Src/usart.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/homework1.elf.dir/Core/Src/usart.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\homework1.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\homework1.elf.dir\Core\Src\usart.c.obj -c C:\RMdiankong\homework1\Core\Src\usart.c
 
 CMakeFiles/homework1.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -210,7 +224,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/homework1.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: C:/RMdiankong/homework1/Core/Startup/startup_stm32f427iihx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/homework1.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/homework1.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\homework1.elf.dir\Core\Startup\startup_stm32f427iihx.s.obj -c C:\RMdiankong\homework1\Core\Startup\startup_stm32f427iihx.s
 
 CMakeFiles/homework1.elf.dir/Core/Startup/startup_stm32f427iihx.s.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/homework1.elf.dir/Core/Startup/startup_stm32f427iihx.s.s: cmake_force
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -235,10 +249,24 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
+CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/homework1.elf.dir/flags.make
+CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
+CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
+
+CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i"
+	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
+
+CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s"
+	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
+
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -252,7 +280,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cort
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -266,7 +294,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -280,7 +308,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -294,7 +322,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -308,7 +336,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -322,7 +350,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -336,7 +364,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -350,7 +378,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -364,7 +392,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -378,7 +406,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -392,7 +420,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -406,7 +434,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -420,7 +448,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -434,7 +462,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/homework1.elf.dir/flags.make
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/homework1.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\homework1.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -448,6 +476,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart
 # Object files for target homework1.elf
 homework1_elf_OBJECTS = \
 "CMakeFiles/homework1.elf.dir/Core/Src/callback.c.obj" \
+"CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj" \
 "CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
@@ -459,6 +488,7 @@ homework1_elf_OBJECTS = \
 "CMakeFiles/homework1.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/homework1.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj" \
 "CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
+"CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj" \
 "CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" \
 "CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" \
 "CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" \
@@ -479,6 +509,7 @@ homework1_elf_OBJECTS = \
 homework1_elf_EXTERNAL_OBJECTS =
 
 homework1.elf: CMakeFiles/homework1.elf.dir/Core/Src/callback.c.obj
+homework1.elf: CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
@@ -490,6 +521,7 @@ homework1.elf: CMakeFiles/homework1.elf.dir/Core/Src/tim.c.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/Core/Src/usart.c.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+homework1.elf: CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
@@ -507,7 +539,7 @@ homework1.elf: CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm
 homework1.elf: CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 homework1.elf: CMakeFiles/homework1.elf.dir/build.make
 homework1.elf: CMakeFiles/homework1.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable homework1.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\RMdiankong\homework1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable homework1.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\homework1.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/RMdiankong/homework1/cmake-build-debug/homework1.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/RMdiankong/homework1/cmake-build-debug/homework1.bin"

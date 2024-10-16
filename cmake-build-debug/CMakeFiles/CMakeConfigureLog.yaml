@@ -135,8 +135,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-99rjlz"
-      binary: "C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-99rjlz"
+      source: "C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m16uh"
+      binary: "C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m16uh"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -145,13 +145,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-99rjlz'
+        Change Dir: 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m16uh'
         
-        Run Build Command(s): C:/Users/26279/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2a750/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2a750.dir\\build.make CMakeFiles/cmTC_2a750.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-99rjlz'
-        Building C object CMakeFiles/cmTC_2a750.dir/CMakeCCompilerABI.c.obj
-        C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): C:/Users/26279/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b9f36/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b9f36.dir\\build.make CMakeFiles/cmTC_b9f36.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m16uh'
+        Building C object CMakeFiles/cmTC_b9f36.dir/CMakeCCompilerABI.c.obj
+        C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
@@ -159,8 +159,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240612-1315) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2a750.dir\\'
-         C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_2a750.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\26279\\AppData\\Local\\Temp\\ccOFZnac.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b9f36.dir\\'
+         C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_b9f36.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\26279\\AppData\\Local\\Temp\\cc9hGC0C.s
         GNU C17 (GNU Tools for STM32 12.3.rel1.20240612-1315) version 12.3.1 20230626 (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -181,18 +181,18 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 8c85bce3e8a10a7ec33a6a6bd0176b53
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2a750.dir\\'
-         C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj C:\\Users\\26279\\AppData\\Local\\Temp\\ccOFZnac.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b9f36.dir\\'
+         C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj C:\\Users\\26279\\AppData\\Local\\Temp\\cc9hGC0C.s
         GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240612-1315) 2.40.0.20230627
         COMPILER_PATH=C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.'
-        Linking C static library libcmTC_2a750.a
-        C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_2a750.dir\\cmake_clean_target.cmake
-        C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2a750.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_2a750.a CMakeFiles/cmTC_2a750.dir/CMakeCCompilerABI.c.obj
-        C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_2a750.a
-        mingw32-make.exe[1]: Leaving directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-99rjlz'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_b9f36.a
+        C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_b9f36.dir\\cmake_clean_target.cmake
+        C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b9f36.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_b9f36.a CMakeFiles/cmTC_b9f36.dir/CMakeCCompilerABI.c.obj
+        C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_b9f36.a
+        mingw32-make.exe[1]: Leaving directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m16uh'
         
       exitCode: 0
   -
@@ -231,13 +231,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-99rjlz']
+        ignore line: [Change Dir: 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m16uh']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/26279/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2a750/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2a750.dir\\build.make CMakeFiles/cmTC_2a750.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-99rjlz']
-        ignore line: [Building C object CMakeFiles/cmTC_2a750.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/Users/26279/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b9f36/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b9f36.dir\\build.make CMakeFiles/cmTC_b9f36.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m16uh']
+        ignore line: [Building C object CMakeFiles/cmTC_b9f36.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj -c C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
@@ -245,8 +245,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240612-1315) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2a750.dir\\']
-        ignore line: [ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_2a750.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\26279\\AppData\\Local\\Temp\\ccOFZnac.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b9f36.dir\\']
+        ignore line: [ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1.exe -quiet -v -iprefix C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_b9f36.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\26279\\AppData\\Local\\Temp\\cc9hGC0C.s]
         ignore line: [GNU C17 (GNU Tools for STM32 12.3.rel1.20240612-1315) version 12.3.1 20230626 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -267,8 +267,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 8c85bce3e8a10a7ec33a6a6bd0176b53]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2a750.dir\\']
-        ignore line: [ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj C:\\Users\\26279\\AppData\\Local\\Temp\\ccOFZnac.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b9f36.dir\\']
+        ignore line: [ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj C:\\Users\\26279\\AppData\\Local\\Temp\\cc9hGC0C.s]
         ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240612-1315) 2.40.0.20230627]
         ignore line: [COMPILER_PATH=C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/]
         ignore line: [C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/]
@@ -277,13 +277,13 @@ events:
         ignore line: [C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/]
         ignore line: [C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_2a750.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C static library libcmTC_2a750.a]
-        ignore line: [C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_2a750.dir\\cmake_clean_target.cmake]
-        ignore line: [C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_2a750.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_2a750.a CMakeFiles/cmTC_2a750.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_2a750.a]
-        ignore line: [mingw32-make.exe[1]: Leaving directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-99rjlz']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_b9f36.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_b9f36.a]
+        ignore line: [C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_b9f36.dir\\cmake_clean_target.cmake]
+        ignore line: [C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b9f36.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_b9f36.a CMakeFiles/cmTC_b9f36.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_b9f36.a]
+        ignore line: [mingw32-make.exe[1]: Leaving directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7m16uh']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -301,8 +301,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pfuaux"
-      binary: "C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pfuaux"
+      source: "C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q95lzm"
+      binary: "C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q95lzm"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -312,13 +312,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pfuaux'
+        Change Dir: 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q95lzm'
         
-        Run Build Command(s): C:/Users/26279/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d8df7/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d8df7.dir\\build.make CMakeFiles/cmTC_d8df7.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pfuaux'
-        Building CXX object CMakeFiles/cmTC_d8df7.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/Users/26279/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d70e6/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d70e6.dir\\build.make CMakeFiles/cmTC_d70e6.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q95lzm'
+        Building CXX object CMakeFiles/cmTC_d70e6.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
@@ -326,8 +326,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240612-1315) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d8df7.dir\\'
-         C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d8df7.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\26279\\AppData\\Local\\Temp\\ccKx2fcG.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d70e6.dir\\'
+         C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d70e6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\26279\\AppData\\Local\\Temp\\cceocePs.s
         GNU C++17 (GNU Tools for STM32 12.3.rel1.20240612-1315) version 12.3.1 20230626 (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -354,18 +354,18 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: e40f213a8b38594a68f1558fe98e1d38
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d8df7.dir\\'
-         C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\26279\\AppData\\Local\\Temp\\ccKx2fcG.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d70e6.dir\\'
+         C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\26279\\AppData\\Local\\Temp\\cceocePs.s
         GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240612-1315) 2.40.0.20230627
         COMPILER_PATH=C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/;C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_d8df7.a
-        C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_d8df7.dir\\cmake_clean_target.cmake
-        C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d8df7.dir\\link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_d8df7.a CMakeFiles/cmTC_d8df7.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_d8df7.a
-        mingw32-make.exe[1]: Leaving directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pfuaux'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_d70e6.a
+        C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_d70e6.dir\\cmake_clean_target.cmake
+        C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d70e6.dir\\link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_d70e6.a CMakeFiles/cmTC_d70e6.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_d70e6.a
+        mingw32-make.exe[1]: Leaving directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q95lzm'
         
       exitCode: 0
   -
@@ -416,13 +416,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pfuaux']
+        ignore line: [Change Dir: 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q95lzm']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/26279/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d8df7/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d8df7.dir\\build.make CMakeFiles/cmTC_d8df7.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pfuaux']
-        ignore line: [Building CXX object CMakeFiles/cmTC_d8df7.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/Users/26279/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d70e6/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d70e6.dir\\build.make CMakeFiles/cmTC_d70e6.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q95lzm']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d70e6.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
@@ -430,8 +430,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.1 20230626 (GNU Tools for STM32 12.3.rel1.20240612-1315) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d8df7.dir\\']
-        ignore line: [ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d8df7.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\26279\\AppData\\Local\\Temp\\ccKx2fcG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d70e6.dir\\']
+        ignore line: [ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/cc1plus.exe -quiet -v -iprefix C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/ -isysroot C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d70e6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o C:\\Users\\26279\\AppData\\Local\\Temp\\cceocePs.s]
         ignore line: [GNU C++17 (GNU Tools for STM32 12.3.rel1.20240612-1315) version 12.3.1 20230626 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -458,8 +458,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: e40f213a8b38594a68f1558fe98e1d38]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d8df7.dir\\']
-        ignore line: [ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\26279\\AppData\\Local\\Temp\\ccKx2fcG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d70e6.dir\\']
+        ignore line: [ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\26279\\AppData\\Local\\Temp\\cceocePs.s]
         ignore line: [GNU assembler version 2.40.0 (arm-none-eabi) using BFD version (GNU Tools for STM32 12.3.rel1.20240612-1315) 2.40.0.20230627]
         ignore line: [COMPILER_PATH=C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/]
         ignore line: [C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/]
@@ -468,13 +468,13 @@ events:
         ignore line: [C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/]
         ignore line: [C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d8df7.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_d8df7.a]
-        ignore line: [C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_d8df7.dir\\cmake_clean_target.cmake]
-        ignore line: [C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d8df7.dir\\link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_d8df7.a CMakeFiles/cmTC_d8df7.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_d8df7.a]
-        ignore line: [mingw32-make.exe[1]: Leaving directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pfuaux']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\\cmTC_d70e6.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_d70e6.a]
+        ignore line: [C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -P CMakeFiles\\cmTC_d70e6.dir\\cmake_clean_target.cmake]
+        ignore line: [C:\\Users\\26279\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_d70e6.dir\\link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_d70e6.a CMakeFiles/cmTC_d70e6.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\RMdiankong\\STM32CubeCLT\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-ranlib.exe libcmTC_d70e6.a]
+        ignore line: [mingw32-make.exe[1]: Leaving directory 'C:/RMdiankong/homework1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q95lzm']
         ignore line: []
         ignore line: []
         implicit libs: []
