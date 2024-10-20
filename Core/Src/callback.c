@@ -7,33 +7,34 @@
 #include <stdio.h>
 #include <string.h>
 
-//void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
-    //if(htim->Instance == htim6.Instance) {
-        //HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port,LED_GREEN_Pin);
-   // }
-//}
-
-CAN_RxHeaderTypeDef rxHeader={514,0,0,0,8};
-uint8_t rxData[8];
-uint8_t TxMAilBox;;
-uint32_t Speed;
-
-uint32_t GetSpeed(uint8_t speedH,uint8_t speedL) {
-    return ((speedH << 8) + speedL);
-}
-
-void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
-    if(hcan->Instance == hcan1.Instance) {
-        HAL_StatusTypeDef status;
-        status=HAL_CAN_GetRxMessage(hcan,CAN_RX_FIFO0,&rxHeader,rxData);
-        CAN_RxHeaderTypeDef rxHeader = {512,0,0,0,8};
-        Speed = GetSpeed(rxData[2],rxData[3]);
-        memset(rxData,0,sizeof(rxData));
-        if(Speed >= 1000) rxData[3] = 0;
-        else rxData[3] = 112;
-        status=HAL_CAN_AddTxMessage(hcan,&rxHeader,rxData,&TxMAilBox);
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
+    if(htim->Instance == htim6.Instance) {
+        HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port,LED_GREEN_Pin);
     }
 }
+
+// CAN_RxHeaderTypeDef rxHeader={514,0,0,0,8};
+// uint8_t rxData[8];
+// uint8_t TxMAilBox;;
+// uint32_t Speed;
+//
+// uint32_t GetSpeed(uint8_t speedH,uint8_t speedL) {
+//     return ((speedH << 8) + speedL);
+// }
+
+// void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
+//     if(hcan->Instance == hcan1.Instance) {
+//         HAL_StatusTypeDef status;
+//         //status=HAL_CAN_GetRxMessage(hcan,CAN_RX_FIFO0,&rxHeader,rxData);
+//         CAN_RxHeaderTypeDef rxHeader = {512,0,0,0,8};
+//         // Speed = GetSpeed(rxData[2],rxData[3]);
+//         // memset(rxData,0,sizeof(rxData));
+//         // if(Speed >= 1000) rxData[3] = 0;
+//         // else rxData[3] = 112;
+//         rxData[3] = 50;
+//         status=HAL_CAN_AddTxMessage(hcan,&rxHeader,rxData,&TxMAilBox);
+//     }
+// }
 //int a = 0;
 /*void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
     if (GPIO_Pin == KEY_Pin) {
