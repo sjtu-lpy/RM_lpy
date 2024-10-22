@@ -35,7 +35,17 @@ extern "C" {
 /* USER CODE END Includes */
 
 /* USER CODE BEGIN Private defines */
-
+  typedef struct{
+    struct {
+      uint8_t rx_buf_[18];
+      uint8_t rx_data_[18];
+    }RC;
+    struct RCChannel{
+      uint16_t pre_channel[4];
+      float channel[4];
+    } channel_;
+    // ......
+  }RC_ctl_type;
 /* USER CODE END Private defines */
 
 void MX_DMA_Init(void);

@@ -4,6 +4,7 @@
 "homework1\main.o"
 "homework1\gpio.o"
 "homework1\can.o"
+"homework1\dma.o"
 "homework1\tim.o"
 "homework1\usart.o"
 "homework1\stm32f4xx_it.o"

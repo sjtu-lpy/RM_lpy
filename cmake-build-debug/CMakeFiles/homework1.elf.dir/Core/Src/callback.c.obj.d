@@ -57,4 +57,5 @@ CMakeFiles/homework1.elf.dir/Core/Src/callback.c.obj: \
  C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/string.h \
  C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/_locale.h \
  C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/strings.h \
- C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/string.h
+ C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/sys/string.h \
+ C:\RMdiankong\homework1\Core\Inc/dma.h

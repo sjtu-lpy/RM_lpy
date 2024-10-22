@@ -104,6 +104,9 @@ int main(void)
   HAL_CAN_ConfigFilter(&hcan1,&can_filter);
   HAL_CAN_Start(&hcan1);
   HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
+
+  uint8_t ddbus_rx_data[18];
+  HAL_UART_Receive_DMA(&huart1,ddbus_rx_data,18);
   /* USER CODE END 2 */
 
   /* Infinite loop */

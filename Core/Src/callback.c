@@ -6,12 +6,13 @@
 #include "tim.h"
 #include <stdio.h>
 #include <string.h>
+#include"dma.h"
 
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
-    if(htim->Instance == htim6.Instance) {
-        HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port,LED_GREEN_Pin);
-    }
-}
+// void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
+//     if(htim->Instance == htim6.Instance) {
+//         HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port,LED_GREEN_Pin);
+//     }
+// }
 
 // CAN_RxHeaderTypeDef rxHeader={514,0,0,0,8};
 // uint8_t rxData[8];
@@ -48,10 +49,37 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
         }
     }
 }*/
-/*void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+
+RC_ctl_type dbus_rx_data,a;
+float ans,k;
+float linear(uint16_t channel_data) {
+    k = 2.0 / 1320.0;
+    ans =  (channel_data - 1024) * k;
+    return ans;
+}
+float temp[4];
+void explain_data() {
+     dbus_rx_data.channel_.pre_channel[0] = (dbus_rx_data.RC.rx_data_[0] | (dbus_rx_data.RC.rx_data_[1] << 8)) & 0x07FF;
+     dbus_rx_data.channel_.pre_channel[1] = ((dbus_rx_data.RC.rx_data_[1] >> 3) | (dbus_rx_data.RC.rx_data_[2] << 5)) & 0x07FF;
+     dbus_rx_data.channel_.pre_channel[2] = ((dbus_rx_data.RC.rx_data_[2] >> 6) | (dbus_rx_data.RC.rx_data_[3] << 2) | (dbus_rx_data.RC.rx_data_[4] << 10)) & 0x07FF;
+     dbus_rx_data.channel_.pre_channel[3] = ((dbus_rx_data.RC.rx_data_[4] >> 1) | (dbus_rx_data.RC.rx_data_[5] << 7)) & 0x07FF;
+    for(int i = 0; i < 4; i++) {
+        dbus_rx_data.channel_.channel[i] = linear(dbus_rx_data.channel_.pre_channel[i]);
+        temp[i] = dbus_rx_data.channel_.channel[i];
+    }
+ }
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
     uint8_t i;
     if (huart->Instance == USART6) {
         HAL_UART_Transmit_IT(huart, &i, sizeof(i));
         HAL_UART_Receive_IT(huart, &i, sizeof(i));
     }
-}*/
+    if(huart->Instance == USART1) {
+        HAL_UART_Receive_DMA(huart, dbus_rx_data.RC.rx_buf_, sizeof(dbus_rx_data.RC.rx_buf_));
+        for(int i = 0;i < 18; i++) {
+            dbus_rx_data.RC.rx_data_[i] = dbus_rx_data.RC.rx_buf_[i];
+        }
+        explain_data();
+    }
+}

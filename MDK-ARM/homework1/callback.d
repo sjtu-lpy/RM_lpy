@@ -31,4 +31,4 @@ homework1/callback.o: ..\Core\Src\callback.c ..\Core\Inc\can.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
   ..\Core\Inc\tim.h C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
-  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h ..\Core\Inc\dma.h
