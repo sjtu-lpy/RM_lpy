@@ -128,29 +128,53 @@ homework1.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/build
 .PHONY : homework1.elf/fast
 
-Core/Src/callback.obj: Core/Src/callback.c.obj
+Core/Src/PID.obj: Core/Src/PID.cpp.obj
+.PHONY : Core/Src/PID.obj
+
+# target to build an object file
+Core/Src/PID.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/PID.cpp.obj
+.PHONY : Core/Src/PID.cpp.obj
+
+Core/Src/PID.i: Core/Src/PID.cpp.i
+.PHONY : Core/Src/PID.i
+
+# target to preprocess a source file
+Core/Src/PID.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/PID.cpp.i
+.PHONY : Core/Src/PID.cpp.i
+
+Core/Src/PID.s: Core/Src/PID.cpp.s
+.PHONY : Core/Src/PID.s
+
+# target to generate assembly for a file
+Core/Src/PID.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/PID.cpp.s
+.PHONY : Core/Src/PID.cpp.s
+
+Core/Src/callback.obj: Core/Src/callback.cpp.obj
 .PHONY : Core/Src/callback.obj
 
 # target to build an object file
-Core/Src/callback.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/callback.c.obj
-.PHONY : Core/Src/callback.c.obj
+Core/Src/callback.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/callback.cpp.obj
+.PHONY : Core/Src/callback.cpp.obj
 
-Core/Src/callback.i: Core/Src/callback.c.i
+Core/Src/callback.i: Core/Src/callback.cpp.i
 .PHONY : Core/Src/callback.i
 
 # target to preprocess a source file
-Core/Src/callback.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/callback.c.i
-.PHONY : Core/Src/callback.c.i
+Core/Src/callback.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/callback.cpp.i
+.PHONY : Core/Src/callback.cpp.i
 
-Core/Src/callback.s: Core/Src/callback.c.s
+Core/Src/callback.s: Core/Src/callback.cpp.s
 .PHONY : Core/Src/callback.s
 
 # target to generate assembly for a file
-Core/Src/callback.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/callback.c.s
-.PHONY : Core/Src/callback.c.s
+Core/Src/callback.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\homework1.elf.dir\build.make CMakeFiles/homework1.elf.dir/Core/Src/callback.cpp.s
+.PHONY : Core/Src/callback.cpp.s
 
 Core/Src/can.obj: Core/Src/can.c.obj
 .PHONY : Core/Src/can.obj
@@ -841,6 +865,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... homework1.elf
+	@echo ... Core/Src/PID.obj
+	@echo ... Core/Src/PID.i
+	@echo ... Core/Src/PID.s
 	@echo ... Core/Src/callback.obj
 	@echo ... Core/Src/callback.i
 	@echo ... Core/Src/callback.s

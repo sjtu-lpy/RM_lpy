@@ -93,6 +93,102 @@
 			"compileCommandFragments" : 
 			[
 				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=cortex-m4"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "STM32F427xx"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "C:/RMdiankong/homework1/Core/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/RMdiankong/homework1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/RMdiankong/homework1/Drivers/CMSIS/Include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				8,
+				10
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
 					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				},
 				{
@@ -181,10 +277,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				8,
-				9,
-				10,
 				11,
+				12,
 				13,
 				14,
 				15,
@@ -193,7 +287,7 @@
 				18,
 				19,
 				20,
-				89,
+				21,
 				90,
 				91,
 				92,
@@ -209,7 +303,8 @@
 				102,
 				103,
 				104,
-				105
+				105,
+				106
 			]
 		},
 		{
@@ -304,7 +399,7 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				21
+				22
 			]
 		}
 	],
@@ -352,7 +447,7 @@
 				"role" : "flags"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
 	"name" : "homework1.elf",
 	"nameOnDisk" : "homework1.elf",
@@ -375,10 +470,10 @@
 				5,
 				6,
 				7,
-				22,
+				9,
 				23,
 				24,
-				26,
+				25,
 				27,
 				28,
 				29,
@@ -408,7 +503,7 @@
 				53,
 				54,
 				55,
-				57,
+				56,
 				58,
 				59,
 				60,
@@ -438,7 +533,8 @@
 				84,
 				85,
 				86,
-				87
+				87,
+				88
 			]
 		},
 		{
@@ -446,9 +542,9 @@
 			"sourceIndexes" : 
 			[
 				8,
-				9,
 				10,
 				11,
+				12,
 				13,
 				14,
 				15,
@@ -457,7 +553,7 @@
 				18,
 				19,
 				20,
-				89,
+				21,
 				90,
 				91,
 				92,
@@ -473,19 +569,19 @@
 				102,
 				103,
 				104,
-				105
+				105,
+				106
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				12,
-				21,
-				25,
-				56,
-				88,
-				106
+				22,
+				26,
+				57,
+				89,
+				107
 			]
 		}
 	],
@@ -534,83 +630,89 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Core/Src/callback.c",
+			"path" : "Core/Src/PID.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/can.c",
-			"sourceGroupIndex" : 1
+			"path" : "Core/Src/PID.h",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Core/Src/dma.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/gpio.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Core/Src/gpio.c_save",
-			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/main.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/stm32f4xx_hal_msp.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/stm32f4xx_it.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/syscalls.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/sysmem.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/system_stm32f4xx.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/tim.c",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/usart.c",
+			"path" : "Core/Src/callback.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
+			"path" : "Core/Src/can.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/dma.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/gpio.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/stm32f4xx_hal_msp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/stm32f4xx_it.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/syscalls.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/sysmem.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/system_stm32f4xx.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/tim.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/usart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
 			"path" : "Core/Startup/startup_stm32f427iihx.s",
 			"sourceGroupIndex" : 2
 		},
@@ -951,103 +1053,103 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
 			"sourceGroupIndex" : 1
 		},

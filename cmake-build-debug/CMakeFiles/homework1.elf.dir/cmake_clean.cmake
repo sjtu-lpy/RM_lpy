@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/homework1.elf.dir/Core/Src/callback.c.obj"
-  "CMakeFiles/homework1.elf.dir/Core/Src/callback.c.obj.d"
+  "CMakeFiles/homework1.elf.dir/Core/Src/PID.cpp.obj"
+  "CMakeFiles/homework1.elf.dir/Core/Src/PID.cpp.obj.d"
+  "CMakeFiles/homework1.elf.dir/Core/Src/callback.cpp.obj"
+  "CMakeFiles/homework1.elf.dir/Core/Src/callback.cpp.obj.d"
   "CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj"
   "CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj.d"
   "CMakeFiles/homework1.elf.dir/Core/Src/dma.c.obj"
@@ -64,6 +66,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C)
+foreach(lang ASM C CXX)
   include(CMakeFiles/homework1.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

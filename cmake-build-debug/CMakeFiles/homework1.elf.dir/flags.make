@@ -3,6 +3,7 @@
 
 # compile ASM with C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe
 # compile C with C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe
+# compile CXX with C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe
 ASM_DEFINES = -DDEBUG -DSTM32F427xx -DUSE_HAL_DRIVER
 
 ASM_INCLUDES = -IC:\RMdiankong\homework1\Core\Inc -IC:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\RMdiankong\homework1\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\RMdiankong\homework1\Drivers\CMSIS\Include
@@ -14,4 +15,10 @@ C_DEFINES = -DDEBUG -DSTM32F427xx -DUSE_HAL_DRIVER
 C_INCLUDES = -IC:\RMdiankong\homework1\Core\Inc -IC:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\RMdiankong\homework1\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\RMdiankong\homework1\Drivers\CMSIS\Include
 
 C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
+
+CXX_DEFINES = -DDEBUG -DSTM32F427xx -DUSE_HAL_DRIVER
+
+CXX_INCLUDES = -IC:\RMdiankong\homework1\Core\Inc -IC:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\RMdiankong\homework1\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\RMdiankong\homework1\Drivers\CMSIS\Include
+
+CXX_FLAGS = -g -fdiagnostics-color=always -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 

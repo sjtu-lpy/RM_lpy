@@ -1,6 +1,5 @@
 --cpu=Cortex-M4.fp.sp
 "homework1\startup_stm32f427xx.o"
-"homework1\callback.o"
 "homework1\main.o"
 "homework1\gpio.o"
 "homework1\can.o"
@@ -9,6 +8,8 @@
 "homework1\usart.o"
 "homework1\stm32f4xx_it.o"
 "homework1\stm32f4xx_hal_msp.o"
+"homework1\callback.o"
+"homework1\pid.o"
 "homework1\stm32f4xx_hal_can.o"
 "homework1\stm32f4xx_hal_rcc.o"
 "homework1\stm32f4xx_hal_rcc_ex.o"
