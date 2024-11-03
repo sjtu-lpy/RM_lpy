@@ -1,6 +1,6 @@
 CMakeFiles/homework1.elf.dir/Core/Src/callback.cpp.obj: \
  C:\RMdiankong\homework1\Core\Src\callback.cpp \
- C:\RMdiankong\homework1\Core\Inc/can.h \
+ C:\RMdiankong\homework1\Core\Inc/spi.h \
  C:\RMdiankong\homework1\Core\Inc/main.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
  C:\RMdiankong\homework1\Core\Inc/stm32f4xx_hal_conf.h \
@@ -36,9 +36,11 @@ CMakeFiles/homework1.elf.dir/Core/Src/callback.cpp.obj: \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  C:\RMdiankong\homework1\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
+ C:\RMdiankong\homework1\Core\Inc/can.h \
  C:\RMdiankong\homework1\Core\Inc/main.h \
  C:\RMdiankong\homework1\Core\Inc/tim.h \
  C:\RMdiankong\STM32CubeCLT\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/stdio.h \

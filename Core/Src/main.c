@@ -20,6 +20,7 @@
 #include "main.h"
 #include "can.h"
 #include "dma.h"
+#include "spi.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -59,6 +60,38 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+
+//spi
+void BMI088_NSS_L(void) {//拉低NSS电平
+  HAL_GPIO_WritePin(NSS_GPIO_Port, NSS_Pin, GPIO_PIN_RESET);
+}
+void BMI088_NSS_H(void) {//拉高NSS电平
+  HAL_GPIO_WritePin(NSS_GPIO_Port, NSS_Pin, GPIO_PIN_SET);
+}
+
+void BMI088_WriteReg(uint8_t reg, uint8_t write_data) {
+  BMI088_NSS_L();//根据手册，写入前拉低电平
+  uint8_t data[2];
+  data[0] = reg;
+  data[1] = write_data;
+  HAL_SPI_Transmit(&hspi5, data, 2, 1000);
+  while(HAL_SPI_GetState(&hspi5) == HAL_SPI_STATE_BUSY_TX);
+  BMI088_NSS_H();//根据手册，写入后拉高电平
+}
+
+void BMI088_ReadReg(uint8_t reg, uint8_t *return_data) {
+  BMI088_NSS_L();//根据手册，读取前拉低电平
+  HAL_Delay(1);
+  uint8_t ttx_data = reg | 0x80;
+  HAL_SPI_Transmit(&hspi5, &ttx_data, 1, 1000);//要先把前8位发送给从设备，告诉现在是读取模式，并且告知要读取的地址
+  while(HAL_SPI_GetState(&hspi5) == HAL_SPI_STATE_BUSY_TX);
+  HAL_SPI_Receive(&hspi5, return_data, 1, 1000);
+  while(HAL_SPI_GetState(&hspi5) == HAL_SPI_STATE_BUSY_RX);
+  HAL_Delay(1);
+  BMI088_NSS_H();//根据手册，读取后拉高电平
+}
+uint8_t Rdata;
+uint8_t lpl;
 /* USER CODE END 0 */
 
 /**
@@ -66,7 +99,6 @@ void SystemClock_Config(void);
   * @retval int
   */
 int main(void)
-
 {
 
   /* USER CODE BEGIN 1 */
@@ -97,6 +129,8 @@ int main(void)
   MX_USART6_UART_Init();
   MX_CAN1_Init();
   MX_USART1_UART_Init();
+  MX_SPI1_Init();
+  MX_SPI5_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim6);
   HAL_TIM_Base_Start_IT(&htim1);
@@ -115,6 +149,8 @@ int main(void)
   char l[] = "Hello World!";
   while (1)
   {
+    BMI088_WriteReg(117,lpl);
+    BMI088_ReadReg(117,&Rdata);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

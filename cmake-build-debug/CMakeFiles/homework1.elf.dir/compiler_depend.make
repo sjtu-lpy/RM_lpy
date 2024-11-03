@@ -32,6 +32,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/callback.cpp.obj: C:/RMdiankong/homework1/
   C:/RMdiankong/homework1/Core/Inc/can.h \
   C:/RMdiankong/homework1/Core/Inc/dma.h \
   C:/RMdiankong/homework1/Core/Inc/main.h \
+  C:/RMdiankong/homework1/Core/Inc/spi.h \
   C:/RMdiankong/homework1/Core/Inc/stm32f4xx_hal_conf.h \
   C:/RMdiankong/homework1/Core/Inc/tim.h \
   C:/RMdiankong/homework1/Core/Src/PID.h \
@@ -60,6 +61,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/callback.cpp.obj: C:/RMdiankong/homework1/
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -101,6 +103,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/can.c.obj: C:/RMdiankong/homework1/Core/Sr
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -142,6 +145,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/dma.c.obj: C:/RMdiankong/homework1/Core/Sr
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -183,6 +187,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/gpio.c.obj: C:/RMdiankong/homework1/Core/S
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -200,6 +205,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj: C:/RMdiankong/homework1/Core/S
   C:/RMdiankong/homework1/Core/Inc/dma.h \
   C:/RMdiankong/homework1/Core/Inc/gpio.h \
   C:/RMdiankong/homework1/Core/Inc/main.h \
+  C:/RMdiankong/homework1/Core/Inc/spi.h \
   C:/RMdiankong/homework1/Core/Inc/stm32f4xx_hal_conf.h \
   C:/RMdiankong/homework1/Core/Inc/tim.h \
   C:/RMdiankong/homework1/Core/Inc/usart.h \
@@ -228,6 +234,49 @@ CMakeFiles/homework1.elf.dir/Core/Src/main.c.obj: C:/RMdiankong/homework1/Core/S
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+CMakeFiles/homework1.elf.dir/Core/Src/spi.c.obj: C:/RMdiankong/homework1/Core/Src/spi.c \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/_newlib_version.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/machine/_default_types.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/stdint.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_intsup.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_stdint.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/features.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  C:/RMdiankong/homework1/Core/Inc/main.h \
+  C:/RMdiankong/homework1/Core/Inc/spi.h \
+  C:/RMdiankong/homework1/Core/Inc/stm32f4xx_hal_conf.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/cmsis_compiler.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/cmsis_gcc.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/cmsis_version.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/core_cm4.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/mpu_armv7.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -268,6 +317,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C:/RMdiankong/hom
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -309,6 +359,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/stm32f4xx_it.c.obj: C:/RMdiankong/homework
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -415,6 +466,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/system_stm32f4xx.c.obj: C:/RMdiankong/home
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -456,6 +508,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/tim.c.obj: C:/RMdiankong/homework1/Core/Sr
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -497,6 +550,7 @@ CMakeFiles/homework1.elf.dir/Core/Src/usart.c.obj: C:/RMdiankong/homework1/Core/
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -536,6 +590,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.ob
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -575,6 +630,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -614,6 +670,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cort
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -653,6 +710,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -692,6 +750,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -731,6 +790,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -770,6 +830,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -809,6 +870,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -848,6 +910,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -887,6 +950,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -926,6 +990,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -965,6 +1030,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -1004,6 +1070,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -1043,6 +1110,47 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+
+CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/_newlib_version.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/machine/_default_types.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/stdint.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_intsup.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_stdint.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/features.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/12.3.1/include/stddef.h \
+  C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h \
+  C:/RMdiankong/homework1/Core/Inc/stm32f4xx_hal_conf.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/cmsis_compiler.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/cmsis_gcc.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/cmsis_version.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/core_cm4.h \
+  C:/RMdiankong/homework1/Drivers/CMSIS/Include/mpu_armv7.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -1082,6 +1190,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -1121,6 +1230,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -1160,6 +1270,7 @@ CMakeFiles/homework1.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
   C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -1181,9 +1292,11 @@ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi
 
 C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:
 
-C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_types.h:
-
 C:/RMdiankong/homework1/Core/Src/callback.cpp:
+
+C:/RMdiankong/homework1/Core/Inc/spi.h:
+
+C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_types.h:
 
 C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 
@@ -1221,9 +1334,13 @@ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi
 
 C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_locale.h:
 
+C:/RMdiankong/homework1/Core/Src/spi.c:
+
 C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/string.h:
 
 C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi/include/sys/_stdint.h:
+
+C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:
 
 C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h:
 
@@ -1252,8 +1369,6 @@ C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/arm-none-eabi
 C:/RMdiankong/homework1/Core/Src/usart.c:
 
 C:/RMdiankong/STM32CubeCLT/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/lib/gcc/arm-none-eabi/12.3.1/include/stdint.h:
-
-C:/RMdiankong/homework1/Core/Src/gpio.c:
 
 C:/RMdiankong/homework1/Core/Inc/dma.h:
 
@@ -1296,6 +1411,8 @@ C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 C:/RMdiankong/homework1/Core/Src/can.c:
 
 C:/RMdiankong/homework1/Core/Src/dma.c:
+
+C:/RMdiankong/homework1/Core/Src/gpio.c:
 
 C:/RMdiankong/homework1/Core/Inc/gpio.h:
 
@@ -1388,6 +1505,8 @@ C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:
 C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:
 
 C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:
+
+C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:
 
 C:/RMdiankong/homework1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c:
 

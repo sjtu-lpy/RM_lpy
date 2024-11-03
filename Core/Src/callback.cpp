@@ -1,6 +1,8 @@
 //
 // Created by 26279 on 24-10-2.
 //
+#include <spi.h>
+
 #include "can.h"
 #include "main.h"
 #include "tim.h"
@@ -14,36 +16,36 @@
 //         HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port,LED_GREEN_Pin);
 //     }
 // }
-
-CAN_RxHeaderTypeDef rxHeader={516,0,0,0,8};
-uint8_t rxData[8],txData[8];
-uint32_t TxMAilBox;
-float Speed;
-float kp,kd,ki,set_speed,pp;
-PID pid(kp,ki,kd,2000.0,1000.0);
-
-int16_t GetSpeed(uint8_t speedH,uint8_t speedL) {
-    return (int16_t)((speedH << 8) | speedL);
-}
-
-void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
-    if(hcan->Instance == hcan1.Instance) {
-        HAL_StatusTypeDef status;
-        status=HAL_CAN_GetRxMessage(hcan,CAN_RX_FIFO0,&rxHeader,rxData);
-        CAN_TxHeaderTypeDef txHeader = {512,0,0,0,8};
-        Speed = GetSpeed(rxData[2],rxData[3]);
-        memset(txData,0,sizeof(txData));
-        pp = pid.calculate(set_speed,Speed);
-        if(pp > 255) {
-            txData[7] = 255;
-            txData[6] = ((int)(pp - 255) >> 8);
-        }
-        else {
-            txData[7] = pp;
-        }
-        status=HAL_CAN_AddTxMessage(hcan,&txHeader,txData,&TxMAilBox);
-    }
-}
+//
+// CAN_RxHeaderTypeDef rxHeader={516,0,0,0,8};
+// uint8_t rxData[8],txData[8];
+// uint32_t TxMAilBox;
+// float Speed;
+// float kp,kd,ki,set_speed,pp;
+// PID pid(kp,ki,kd,2000.0,1000.0);
+//
+// int16_t GetSpeed(uint8_t speedH,uint8_t speedL) {
+//     return (int16_t)((speedH << 8) | speedL);
+// }
+//
+// void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
+//     if(hcan->Instance == hcan1.Instance) {
+//         HAL_StatusTypeDef status;
+//         status=HAL_CAN_GetRxMessage(hcan,CAN_RX_FIFO0,&rxHeader,rxData);
+//         CAN_TxHeaderTypeDef txHeader = {512,0,0,0,8};
+//         Speed = GetSpeed(rxData[2],rxData[3]);
+//         memset(txData,0,sizeof(txData));
+//         pp = pid.calculate(set_speed,Speed);
+//         if(pp > 255) {
+//             txData[7] = 255;
+//             txData[6] = ((int)(pp - 255) >> 8);
+//         }
+//         else {
+//             txData[7] = pp;
+//         }
+//         status=HAL_CAN_AddTxMessage(hcan,&txHeader,txData,&TxMAilBox);
+//     }
+// }
 //int a = 0;
 /*void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
     if (GPIO_Pin == KEY_Pin) {
@@ -91,3 +93,4 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
 //         explain_data();
 //     }
 // }
+

@@ -56,6 +56,7 @@
 
 /* External variables --------------------------------------------------------*/
 extern CAN_HandleTypeDef hcan1;
+extern SPI_HandleTypeDef hspi5;
 extern TIM_HandleTypeDef htim1;
 extern TIM_HandleTypeDef htim6;
 extern DMA_HandleTypeDef hdma_usart1_rx;
@@ -327,6 +328,20 @@ void USART6_IRQHandler(void)
   /* USER CODE BEGIN USART6_IRQn 1 */
 
   /* USER CODE END USART6_IRQn 1 */
+}
+
+/**
+  * @brief This function handles SPI5 global interrupt.
+  */
+void SPI5_IRQHandler(void)
+{
+  /* USER CODE BEGIN SPI5_IRQn 0 */
+
+  /* USER CODE END SPI5_IRQn 0 */
+  HAL_SPI_IRQHandler(&hspi5);
+  /* USER CODE BEGIN SPI5_IRQn 1 */
+
+  /* USER CODE END SPI5_IRQn 1 */
 }
 
 /* USER CODE BEGIN 1 */

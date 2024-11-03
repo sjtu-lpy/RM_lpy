@@ -60,8 +60,3 @@ void MX_DMA_Init(void);
 
 #endif /* __DMA_H__ */
 
-//
-// Created by 26279 on 24-10-26.
-//
-
-
